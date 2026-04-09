@@ -14,7 +14,7 @@ export function PayPage() {
   const { data, loading, error } = useQuery(WHITELIST_BY_TIANQI, {
     skip: !validId,
     variables: {
-      where: { ud_tianqi_id_a09b3f: { _eq: rawId } },
+      where: { ud_tianqi_id_8cbafb: { _eq: rawId } },
     },
   });
 
