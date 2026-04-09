@@ -39,7 +39,7 @@ export function HomePage() {
             <hr className="notice-divider" />
             <p className="notice-section-title">💰 收费标准</p>
             <ul className="notice-rules">
-              <li>未建档家长：学费 980元</li>
+              <li>未建档家长：本期980元（原价1980元）</li>
               <li>已建档家长：免学费，仅需缴纳 200元押金</li>
             </ul>
             <p className="notice-section-title">📌 学习规则</p>
