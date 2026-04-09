@@ -295,6 +295,79 @@ body {
   color: var(--muted);
 }
 
+/* 课程通知 */
+.notice {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(76, 175, 80, 0.35);
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.06) 0%, rgba(255, 235, 59, 0.04) 100%);
+}
+
+.notice-title {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--green);
+  line-height: 1.4;
+}
+
+.notice-body {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.notice-body p {
+  margin: 0 0 0.6rem;
+}
+
+.notice-body p:last-child {
+  margin-bottom: 0;
+}
+
+.notice-section-title {
+  font-weight: 700;
+  color: #2e7d32;
+  margin-top: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+
+.notice-section-title:first-child {
+  margin-top: 0;
+}
+
+.notice-highlight {
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.notice-divider {
+  margin: 0.6rem 0;
+  border: none;
+  border-top: 1px dashed rgba(76, 175, 80, 0.3);
+}
+
+.notice-rules {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.notice-rules li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.notice-rules li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-weight: 700;
+}
+
 .zion-watermark {
   position: fixed;
   bottom: 20px;
